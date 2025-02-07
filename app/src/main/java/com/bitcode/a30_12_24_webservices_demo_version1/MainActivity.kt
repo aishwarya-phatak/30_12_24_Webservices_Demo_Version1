@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         var policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
+
         WebThread1().run()
     }
 }
